@@ -4,7 +4,8 @@ import dotenv from 'dotenv';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import connectDB from './config/db.js';
-import todoRoutes from './routes/todoRoutes.js';
+import todoRoutes from "./routes/todo.route.js";
+
 
 dotenv.config();
 
